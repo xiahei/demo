@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div id="logo" style="text-align: center; margin-top: 5%">
+        {% load staticfiles %}
+        
+    </div>
+
+    <form action="/search/" method="get" class="search_form">
+        <div  style="width: 100%; text-align: center ;margin-top: 3%;">
+            <input type="text" name="question" class="mytxt" value={{ input_q }} maxlength="100" size="60" placeholder="请输入搜索内容">
+            <input type="submit" name="s" class="sou" value="搜索">
+        </div>
+    </form>
+    <div style="margin-top:4%;"><hr></div>
+    <h4 style="text-align: center; margin-top: 3% ;">相似度最高问句:{{ pred_q }}</h4>
+    <h4 style="text-align: center; margin-top: 1% ;">答案:{{ pred_a }}</h4>
+    <form action="/test/">
+        <div style="text-align:center;">
+            <input type="submit" id="button" value="差评" >
+        </div>
+    </form>
+{% endblock %}
+
+
+
+
