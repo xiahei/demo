@@ -1,9 +1,6 @@
 #/usr/bin/python
 #coding:utf-8
 
-__Author__ = 'eyu Fanne'
-__Date__ = '2017/7/10'
-
 from django import forms
 from captcha.fields import CaptchaField
 from .models import UserProfile
@@ -24,15 +21,17 @@ class RegisterForm(forms.Form):
     captcha = CaptchaField(error_messages={"invalid": u"验证码错误"})
 
 
-'''
-class ForgetForm(forms.Form):
+#忘记密码
+class ForgetPwdForm(forms.Form):
     email = forms.EmailField(required=True)
-    #captcha = CaptchaField(error_messages={"invalid": u"验证码错误"})
+    captcha = CaptchaField(error_messages={"invalid": u"验证码错误"})
 
+#修改密码
 class ModifyPwdForm(forms.Form):
     password1 = forms.CharField(required=True, min_length=5)
     password2 = forms.CharField(required=True, min_length=5)
 
+'''
 class UploadImageForm(forms.ModelForm):
     class Meta:
         model = UserProfile

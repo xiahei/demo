@@ -3,7 +3,7 @@
 
 import xadmin
 
-from .models import EmailVerifyRecord,Banner
+from .models import EmailVerifyRecord, Banner
 
 #xadmin中这里是继承object，不再是继承admin
 class EmailVerifyRecordAdmin(object):

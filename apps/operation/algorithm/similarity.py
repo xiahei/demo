@@ -8,16 +8,16 @@ import jieba
 import numpy as np
 import os
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 class Sim:
     def __init__(self):
         self.label_dict = {0:'报考点',1:'招生人数',2:'学制',3:'考试内容',4:'报名',5:'费用',6:'特殊'}
         self.stop_words = self.load_stopwords()
-        self.feature = joblib.load('F:/qademo/demo/apps/operation/algorithm/tfidf_features.m')
-        self.classifier = joblib.load('F:/qademo/demo/apps/operation/algorithm/classify_baseline.m')    
+        self.feature = joblib.load(BASE_DIR+'/tfidf_features.m')
+        self.classifier = joblib.load(BASE_DIR+'/classify_baseline.m')
 
-    def load_stopwords(self,stopwords_file='F:/qademo/demo/apps/operation/algorithm/stopwords'):
+    def load_stopwords(self,stopwords_file=BASE_DIR+'/stopwords'):
         stopwords = set()
         with open(stopwords_file) as fr:
             for line in fr:
@@ -41,13 +41,13 @@ class Sim:
     
     def search_range(self,pred_label):
         #print ("the predict label of input sentence is:",pred_label)
-        filename = 'F:/qademo/demo/apps/operation/algorithm/data/'+str(pred_label)+'.npy'
+        filename = BASE_DIR+'/data/'+str(pred_label)+'.npy'
         train_matrix = np.load(filename)
         #mapping index to question in train corpus
         train_index = {}
         count = 0
         #inputname = 'data/'+self.label_dict[int(pred_label)].decode('utf-8')
-        inputname = 'F:/qademo/demo/apps/operation/algorithm/data/'+self.label_dict[int(pred_label)].decode('utf-8')
+        inputname = BASE_DIR+'/data/'+self.label_dict[int(pred_label)].decode('utf-8')
         with open(inputname,'r') as fr:
             for line in fr:
                 line = line.strip().split('\t')

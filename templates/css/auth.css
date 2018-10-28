@@ -1,0 +1,35 @@
+
+@charset "utf-8";
+.dashboard{
+	background:url("../images/mainbg.jpg") no-repeat;
+}
+.bd{
+	padding:30px 0;
+}
+.mbox{
+	padding:30px;
+	background:#fff;
+	min-height:400px;
+	margin:20px auto;
+}
+
+.boxHd {
+    border-bottom: 1px dotted #c8c8c8;
+    color: #323232;
+    font-family: "Microsoft YaHei",arial;
+    font-size: 20px;
+    font-weight: normal;
+    height: 33px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.errors{
+	padding: 10px;
+	border:1px dashed red;
+	margin-top:20px;
+}
+
+.login-link{
+	padding:10px 0;
+}
+.login-link span{ margin-right: 10px;}

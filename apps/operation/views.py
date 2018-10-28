@@ -3,7 +3,7 @@ from operation.algorithm import similarity
 
 # Create your views here.
 def search(request):
-    input_question = str(request.GET['question'])
+    input_question = str(request.POST['question'])
     if input_question:
         res = similarity.Sim()
         vector,pred_label = res.classify(input_question.strip())

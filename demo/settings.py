@@ -123,6 +123,9 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 AUTH_USER_MODEL = 'users.UserProfile'
+AUTHENTICATION_BACKENDS = (
+            'users.views.CustomBackend',
+)
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
@@ -142,12 +145,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATICFILES_DIRS = (os.path.join(BASE_DIR,'static'),
+                   )
 
 #smtp
 EMAIL_HOST = "smtp.qq.com" #SMTP服务器主机
 EMAIL_PORT = 25     #服务器端口
-EMAIL_HOST_USER = "381746356@qq.com"
-EMAIL_HOST_PASSWORD = ""    # 密码
+EMAIL_HOST_USER = "2068173295@qq.com"
+EMAIL_HOST_PASSWORD = "wdosxobaulkwfafg"    # 密码
 EMAIL_USE_TLS= True
-EMAIL_FROM = "381746356@qq.com"            # 邮箱地址
+EMAIL_FROM = "2068173295@qq.com"            # 邮箱地址

@@ -17,11 +17,11 @@ Including another URLconf
 from django.conf.urls import url,include
 from django.contrib import admin
 import xadmin
-from users.views import IndexView, LoginView, LogoutView, RegisterView
+from users.views import IndexView, LoginView, LogoutView, RegisterView, ForgetPwdView, ActiveUserView, ResetView, ModifyPwdView
 from operation import views
 
 urlpatterns = [
-    url(r'^xadmin/', xadmin.site.urls),
+    url(r'^xadmin/', xadmin.site.urls, name = "xadmin"),
     url(r'^$',IndexView.as_view(), name="index"),
     url(r'^login/$', LoginView.as_view(), name="login"),
     url(r'^logout/$', LogoutView.as_view(), name="logout"),
@@ -29,5 +29,10 @@ urlpatterns = [
     url(r'^search/$', views.search),
     url(r'^test/$', views.test),
     url(r'^feedback/$', views.feedback),
-    url(r'^captcha/',include('captcha.urls'))
+    url(r'^captcha/',include("captcha.urls")),
+    url(r'^active/(?P<active_code>.*)/',ActiveUserView.as_view(),name="user_active"),
+    url(r'^forget/',ForgetPwdView.as_view(),name="forget_pwd"),
+    url(r'^reset/(?P<active_code>.*)/',ResetView.as_view(),name="reset_pwd"),
+    url(r'^modify_pwd/',ModifyPwdView.as_view(),name="modify_pwd"),
+
 ]
