@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     #'courses',
     #'organizations',
     'operation',
+    'crawler',
     'captcha',
 ]
 
