@@ -7,6 +7,7 @@ from datetime import datetime
 # Create your models here.
 from django.db import models
 
+#问答数据展示
 class QADisplay(models.Model):
     question = models.CharField('问题',max_length=300)
     answer = models.CharField('答案',max_length=150)
@@ -14,4 +15,13 @@ class QADisplay(models.Model):
 
     class Meta:
         verbose_name = '问答数据'
+        verbose_name_plural = verbose_name
+
+#已爬取网页链接
+class URLDisplay(models.Model):
+    url = models.CharField('链接',max_length=300)
+    flag = models.BooleanField('是否爬取')
+
+    class Meta:
+        verbose_name = '爬取链接'
         verbose_name_plural = verbose_name
