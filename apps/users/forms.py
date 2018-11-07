@@ -31,8 +31,11 @@ class ModifyPwdForm(forms.Form):
     password1 = forms.CharField(required=True, min_length=5)
     password2 = forms.CharField(required=True, min_length=5)
 
-'''
+
 class UploadImageForm(forms.ModelForm):
+    '''
+    用户更改图像
+    '''
     class Meta:
         model = UserProfile
         fields = ["image"]
@@ -41,5 +44,4 @@ class UploadImageForm(forms.ModelForm):
 class UserInfoForm(forms.ModelForm):
     class Meta:
         model = UserProfile
-        fields = ["nick_name", "gender", "birday", "address", "mobile"]
-'''
+        fields = ["nick_name", "gender", "birthday", "address", "mobile"]

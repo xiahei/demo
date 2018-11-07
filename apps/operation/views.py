@@ -1,11 +1,12 @@
 from django.shortcuts import render_to_response
 from operation.algorithm import similarity
 
+res = similarity.Sim()
+
 # Create your views here.
 def search(request):
-    input_question = str(request.POST['question'])
+    input_question = str(request.GET['question'])
     if input_question:
-        res = similarity.Sim()
         vector,pred_label = res.classify(input_question.strip())
         train_matrix,train_index = res.search_range(pred_label)
         q,a = res.cal_sim(train_matrix,vector,train_index)

@@ -5,11 +5,10 @@
    
 </div>
 
-<form action="/search/" method="post" class="search_form">
+<form action="/search/" method="get" class="search_form" enctype="multipart/form-data">
     <div  style="width: 100%; text-align: center ;margin-top: 3%;">
         <input type="text" name="question" class="mytxt" maxlength="100" size="60" placeholder="请输入搜索内容">
         <input type="submit" name="sub" class="sou" value="搜索">
     </div>
-    {% csrf_token %}
 </form>
 {% endblock %}

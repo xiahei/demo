@@ -14,10 +14,12 @@ Including another URLconf
     2. Import the include() function: from django.conf.urls import url, include
     3. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
+#-*-coding:utf-8-*-
+
 from django.conf.urls import url,include
 from django.contrib import admin
 import xadmin
-from users.views import IndexView, LoginView, LogoutView, RegisterView, ForgetPwdView, ActiveUserView, ResetView, ModifyPwdView
+from users.views import IndexView, LoginView, LogoutView, RegisterView, ForgetPwdView, ActiveUserView, ResetView, ModifyPwdView, UploadImageView
 from operation import views
 
 urlpatterns = [
@@ -29,10 +31,11 @@ urlpatterns = [
     url(r'^search/$', views.search),
     url(r'^test/$', views.test),
     url(r'^feedback/$', views.feedback),
-    url(r'^captcha/',include("captcha.urls")),
-    url(r'^active/(?P<active_code>.*)/',ActiveUserView.as_view(),name="user_active"),
-    url(r'^forget/',ForgetPwdView.as_view(),name="forget_pwd"),
-    url(r'^reset/(?P<active_code>.*)/',ResetView.as_view(),name="reset_pwd"),
-    url(r'^modify_pwd/',ModifyPwdView.as_view(),name="modify_pwd"),
+    url(r'^captcha/', include("captcha.urls")),
+    url(r'^active/(?P<active_code>.*)/', ActiveUserView.as_view(), name="user_active"),
+    url(r'^forget/', ForgetPwdView.as_view(), name="forget_pwd"),
+    url(r'^reset/(?P<active_code>.*)/', ResetView.as_view(), name="reset_pwd"),
+    url(r'^modify_pwd/', ModifyPwdView.as_view(), name="modify_pwd"),
+    url(r'^users/', include("users.urls", namespace="users")),
 
 ]

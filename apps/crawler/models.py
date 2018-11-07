@@ -20,7 +20,7 @@ class QADisplay(models.Model):
 #已爬取网页链接
 class URLDisplay(models.Model):
     url = models.CharField('链接',max_length=300)
-    flag = models.BooleanField('是否爬取')
+    is_crawled = models.BooleanField('是否爬取')
 
     class Meta:
         verbose_name = '爬取链接'
