@@ -25,3 +25,12 @@ class URLDisplay(models.Model):
     class Meta:
         verbose_name = '爬取链接'
         verbose_name_plural = verbose_name
+
+#历年考研统计数据
+class StatisticsData(models.Model):
+    year = models.CharField('年份',max_length=10)
+    score = models.CharField('分数线',max_length=20)
+
+    class Meta:
+        verbose_name = '统计数据'
+        verbose_name_plural = verbose_name

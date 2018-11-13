@@ -3,6 +3,8 @@
 
 import xadmin
 from .models import QADisplay, URLDisplay
+from import_export import resources
+from .models import StatisticsData
 
 #数据展示
 class QADisplayAdmin(object):
@@ -16,3 +18,11 @@ class URLDisplayAdmin(object):
     list_filter = ['url', 'is_crawled']
 
 xadmin.site.register(URLDisplay, URLDisplayAdmin)
+
+class DataResource(resources.ModelResource):
+    class Meta:
+        model = StatisticsData
+
+@xadmin.sites.register(StatisticsData)
+class DataAdmin(object):
+    import_export_args = {'import_resource_class':DataResource}
