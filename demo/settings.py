@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'crawler',
     'captcha',
     'import_export',
+    'algorithm',
 ]
 
 MIDDLEWARE_CLASSES = [

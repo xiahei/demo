@@ -3,7 +3,7 @@
 
 import xadmin
 
-from .models import EmailVerifyRecord, Banner
+from .models import EmailVerifyRecord
 
 #xadmin中这里是继承object，不再是继承admin
 class EmailVerifyRecordAdmin(object):
@@ -16,14 +16,14 @@ class EmailVerifyRecordAdmin(object):
 
 xadmin.site.register(EmailVerifyRecord,EmailVerifyRecordAdmin)
 
-
+'''
 class BannerAdmin(object):
     list_display = ['title', 'image', 'url','index', 'add_time']
     search_fields = ['title', 'image', 'url','index']
     list_filter = ['title', 'image', 'url','index', 'add_time']
 
-
 xadmin.site.register(Banner,BannerAdmin)
+'''
 
 from xadmin import views
 

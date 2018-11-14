@@ -14,7 +14,7 @@ class QADisplay(models.Model):
     update_time = models.DateTimeField('更新时间',default=datetime.now)
 
     class Meta:
-        verbose_name = '问答数据'
+        verbose_name = '原始问答数据'
         verbose_name_plural = verbose_name
 
 #已爬取网页链接
@@ -31,6 +31,9 @@ class StatisticsData(models.Model):
     year = models.CharField('年份',max_length=10)
     score = models.CharField('分数线',max_length=20)
 
+    def __unicode__(self):
+        return '%s-%s' %(self.year, self.score)
+
     class Meta:
-        verbose_name = '统计数据'
+        verbose_name = '上传统计数据'
         verbose_name_plural = verbose_name

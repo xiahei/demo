@@ -46,6 +46,7 @@ class EmailVerifyRecord(models.Model):
         verbose_name_plural = verbose_name
 
 
+'''
 class Banner(models.Model):
     title = models.CharField('标题',max_length=100)
     image = models.ImageField('轮播图',upload_to='banner/%Y%m',max_length=100)
@@ -56,3 +57,4 @@ class Banner(models.Model):
     class Meta:
         verbose_name = '轮播图'
         verbose_name_plural = verbose_name
+'''

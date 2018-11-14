@@ -90,13 +90,13 @@ class UserAdmin(object):
                              ),
                     Fieldset(_('Personal info'),
                              Row('first_name', 'last_name'),
-                             'email'
+                             'email',
                              ),
                     Fieldset(_('Permissions'),
-                             'groups', 'user_permissions'
+                             'groups', 'user_permissions',
                              ),
                     Fieldset(_('Important dates'),
-                             'last_login', 'date_joined'
+                             'last_login', 'date_joined',
                              ),
                 ),
                 Side(
