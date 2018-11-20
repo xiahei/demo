@@ -3,7 +3,6 @@
 {% block content %}
     <div id="logo" style="text-align: center; margin-top: 5%">
         {% load staticfiles %}
-        
     </div>
 
     <form action="/search/" method="get" class="search_form">
@@ -15,7 +14,12 @@
     <div style="margin-top:4%;"><hr></div>
     <h4 style="text-align: center; margin-top: 3% ;">相似度最高问句:{{ pred_q }}</h4>
     <h4 style="text-align: center; margin-top: 1% ;">答案:{{ pred_a }}</h4>
-    <form action="/test/">
+    <form action="/favourable/">
+        <div style="text-align:center;">
+            <input type="submit" id="button" value="好评" >
+        </div>
+    </form>
+    <form action="/feedback/">
         <div style="text-align:center;">
             <input type="submit" id="button" value="差评" >
         </div>

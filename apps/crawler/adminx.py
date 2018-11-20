@@ -21,10 +21,11 @@ xadmin.site.register(URLDisplay, URLDisplayAdmin)
 
 # 上传数据展示
 class DataResource(resources.ModelResource):
+
     class Meta:
         model = StatisticsData
         fields = ('id','year','score')
 
 @xadmin.sites.register(StatisticsData)
 class DataAdmin(object):
-    import_export_args = {'import_resource_class':DataResource}
+    import_export_args = {'import_resource_class': DataResource}

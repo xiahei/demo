@@ -450,6 +450,7 @@ class CommAdminView(BaseAdminView):
             if selected:
                 menu['selected'] = True
             return selected
+
         for menu in nav_menu:
             check_selected(menu, self.request.path)
 
@@ -458,7 +459,7 @@ class CommAdminView(BaseAdminView):
             'nav_menu': nav_menu,
             'site_title': self.site_title,
             'site_footer': self.site_footer,
-            'breadcrumbs': self.get_breadcrumb()
+            'breadcrumbs': self.get_breadcrumb(),
         })
 
         return context

@@ -20,7 +20,7 @@ from django.conf.urls import url,include
 from django.contrib import admin
 import xadmin
 from users.views import IndexView, LoginView, LogoutView, RegisterView, ForgetPwdView, ActiveUserView, ResetView, ModifyPwdView, UploadImageView
-from operation import views
+from algorithm import views
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls, name = "xadmin"),
@@ -29,13 +29,16 @@ urlpatterns = [
     url(r'^logout/$', LogoutView.as_view(), name="logout"),
     url(r'^register/$', RegisterView.as_view(), name="register"),
     url(r'^search/$', views.search),
-    url(r'^test/$', views.test),
+    url(r'^favourable/$', views.favourable),
     url(r'^feedback/$', views.feedback),
+    url(r'^feedback/finish/$', views.feedback2),
     url(r'^captcha/', include("captcha.urls")),
     url(r'^active/(?P<active_code>.*)/', ActiveUserView.as_view(), name="user_active"),
     url(r'^forget/', ForgetPwdView.as_view(), name="forget_pwd"),
     url(r'^reset/(?P<active_code>.*)/', ResetView.as_view(), name="reset_pwd"),
     url(r'^modify_pwd/', ModifyPwdView.as_view(), name="modify_pwd"),
     url(r'^users/', include("users.urls", namespace="users")),
+    url(r'^xadmin/algorithm/updatemodel/$', views.update, name="update_model"),
+    #url(r'updatemodel/', views.update, name="update_model")
 
 ]

@@ -3,9 +3,10 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 import sys
 sys.path.append(BASE_DIR)
+import json
+
 from .models import UserProfile, EmailVerifyRecord
 from .forms import LoginForm, RegisterForm, ForgetPwdForm, ModifyPwdForm, UploadImageForm
-
 from django.shortcuts import render
 from django.views.generic.base import View
 from django.contrib.auth import authenticate, login, logout
@@ -16,7 +17,8 @@ from django.db.models import Q
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth.mixins import LoginRequiredMixin
 from utils.email_send import send_register_email
-import json
+from operation.models import UserAsk,UserFavourable,UserFeedback
+
 
 # Create your views here.
 class IndexView(View):
@@ -223,3 +225,11 @@ class SendEmailCodeView(LoginRequiredMixin, View):
 
         send_register_email(email, 'update_email')
         return HttpResponse('{"status":"success"}', content_type='application/json')
+
+class MyQuestionView(LoginRequiredMixin,View):
+    def get(self, request):
+        questions = UserAsk.objects.filter(email=request.user)
+        return render(request, 'usercenter-message.html', {"messages":questions})
+
+class MyFeedbackView(LoginRequiredMixin,View):
+    pass

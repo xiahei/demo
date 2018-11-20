@@ -1,12 +1,9 @@
 #-*-coding:utf-8-*-
 
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
-import urllib2
+import urllib.request
 from bs4 import BeautifulSoup
 import re
-import urlparse
+from urllib.parse import urlparse
 import pymysql
 import datetime
 import pytz
@@ -18,8 +15,8 @@ class HtmlDownloader(object):
         if url is None:
             return None
 
-        response = urllib2.urlopen(url)
-        # print response.getcode() 返回200
+        response = urllib.request.urlopen(url)
+        # print (response.getcode()) 返回200
 
         if response.getcode() != 200:
             return None
@@ -106,7 +103,7 @@ class UrlManager(object):
 class HtmlOutputer(object):
 
     def output(self,data,cursor,connect):
-        for k,v in data.iteritems():
+        for k,v in data.items():
             cursor.execute("insert ignore into crawler_qadisplay (question,answer,update_time) values('%s','%s','%s')" % (v['question'], v['answer'], v['time']))
             connect.commit()
 
@@ -131,7 +128,7 @@ class SpiderMain(object):  # 在构造函数中初始化各个对象
         while new_url:  # 当管理器中存在新的URL，循环
             #try:
             self.urls.add_old_url(new_url)             # url存入内存
-            print 'crawl %d : %s' % (count, new_url)
+            print ('crawl %d : %s' % (count, new_url))
             cur.execute("UPDATE crawler_urldisplay SET is_crawled=True where url='%s'" % new_url) # 更新已爬取的url标签
             conn.commit()
             html_cont = self.downloader.download(new_url)  # 下载页面
@@ -150,7 +147,7 @@ class SpiderMain(object):  # 在构造函数中初始化各个对象
 
             new_url = self.urls.get_new_url(cur, conn)  # 获取新的URL
             #except:
-            #    print 'crawl failed'
+            #    print ('crawl failed')
 
         cur.close()
         conn.close()

@@ -1,0 +1,90 @@
+{% extends base_template %}
+{% load i18n xadmin_tags %}
+
+{% block title %}模型更新{% endblock %}
+
+
+{% block content %}
+    <style type="text/css">
+    .button{
+        width: 8em;
+        height: 2.5em;
+        border: none;
+        background: #428bca;
+        color: #eee;
+        border-radius: 4px;
+        font-size: small;
+        display:block;
+        margin-left: 3.5em;
+        margin-bottom: 1em
+    }
+    </style>
+
+    <div>
+        <input type="button" id="crawler" class="button" value="爬虫算法更新">
+        <!--input type="button" id="cluster" class="button" value="聚类算法更新"-->
+        <!--button id="cluster" class="button" onclick="window.location.href='/xadmin/algorithm/updatemodel/'">聚类算法更新</button-->
+        <form action="{% url 'update_model' %}" method="POST">
+            <input type="button" id="cluster" class="button" value="聚类算法更新">
+        </form>
+        <!--a href="{% url 'update_model' %}" id="cluster" class="button"> 聚类算法更新 </a-->
+        <input type="button" id="classify" class="button" value="分类算法更新">
+        <input type="button" id="answer_selection" class="button" value="答案抽取算法">
+    </div>
+
+    <!--
+        <button class="layui-btn" style="
+                width: 8em;
+                height: 2.5em;
+                border: none;
+                background: #428bca;
+                color: #eee;
+                border-radius: 4px;
+                font-size: small;
+                display:block;
+                margin-left: 3.5em;
+                margin-bottom: 1em;"
+            >爬虫算法更新</button>
+    <a herf="/update/cluster/">
+        <button class="layui-btn" style="
+                width: 8em;
+                height: 2.5em;
+                border: none;
+                background: #428bca;
+                color: #eee;
+                border-radius: 4px;
+                font-size: small;
+                display:block;
+                margin-left: 3.5em;
+                margin-bottom: 1em;"
+            >聚类算法更新</button>
+    </a>
+        <button class="layui-btn" style="
+                width: 8em;
+                height: 2.5em;
+                border: none;
+                background: #428bca;
+                color: #eee;
+                border-radius: 4px;
+                font-size: small;
+                display:block;
+                margin-left: 3.5em;
+                margin-bottom: 1em;"
+            >分类算法更新</button>
+        <input type="submit"
+               style="width: 8em;
+                      height: 2.5em;
+                      border: none;
+                      background: #428bca;
+                      color: #eee;
+                      border-radius: 4px;
+                      font-size: small;
+                      display:block;
+                      margin-left: 3.5em;
+                      margin-bottom: 1em;"
+               class="button" value="答案抽取算法">
+ 
+    </div>-->
+
+
+{% endblock %}

@@ -4,6 +4,8 @@
 import xadmin
 from .models import preprocessData, clusterRes, updateModel
 from import_export import resources
+from django.template import loader
+from xadmin.views import BaseAdminPlugin, ListAdminView
 
 '''
 # 上传
@@ -29,7 +31,23 @@ class clusterResAdmin(object):
 
 xadmin.site.register(clusterRes, clusterResAdmin)
 
+
 class updateModelAdmin(object):
     list_display = []
-    object_list_template = "xadmin/update.html"
+    object_list_template = "xadmin/views/update.html"
 xadmin.site.register(updateModel, updateModelAdmin)
+
+
+'''
+class UpdateClusterPlugin(BaseAdminPlugin):
+    is_update = False
+
+    def init_request(self, *args, **kwargs):
+        return bool(self.is_update)
+
+    def block_update_button(self,context,nodes):
+        context.update({'更新完成'})
+        nodes.append(loader.render_to_string('xadmin/views/update.html',context_instance=context))
+
+xadmin.site.register_plugin(UpdateClusterPlugin, ListAdminView)
+'''

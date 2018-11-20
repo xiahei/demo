@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div id="logo" style="text-align: center; margin-top: 5%">
+        {% load staticfiles %}
+
+    </div>
+
+    <form action="/search/" method="get" class="search_form">
+        <div  style="width: 100%; text-align: center ;margin-top: 3%;">
+            <input type="text" name="question" class="mytxt" maxlength="100" size="60" placeholder="请输入搜索内容">
+            <input type="submit" name="s" class="sou" value="搜索">
+        </div>
+    </form>
+
+    <div style="margin-top:4%;"><hr></div>
+    <div style="text-align: center; margin-top: 5%">
+        你查找的内容与主题无关，请重新输入问题！
+    </div>
+
+{% endblock %}

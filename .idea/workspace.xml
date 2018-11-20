@@ -2,25 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e344843a-11d8-4528-9df5-141cf128a046" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/algorithm/adminx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/algorithm/classify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/algorithm/cluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/algorithm/algormodel/test_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/algorithm/plugins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/plugins/model_list.top_toolbar.format.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/updatecluster.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base_origin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/finish_feedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/resultnotopic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/crawler/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/crawler/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/algorithm/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/algorithm/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/algorithm/algormodel/classify_SVM.m" beforeDir="false" afterPath="$PROJECT_DIR$/apps/algorithm/algormodel/classify_SVM.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/algorithm/algormodel/tfidf_features_20181112.m" beforeDir="false" afterPath="$PROJECT_DIR$/apps/algorithm/algormodel/tfidf_features_20181112.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/algorithm/classify.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/algorithm/cluster.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/algorithm/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/algorithm/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/crawler/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/crawler/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/crawler/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/crawler/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/crawler/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/crawler/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/crawler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/crawler/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/classify_baseline.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/6.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/其他" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/学制" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/报名" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/报考点" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/招生人数" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/特殊" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/考试内容" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/data/费用" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/similarity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/stopwords" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/algorithm/tfidf_features.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/migrations/0002_userask_usercomments_usermessage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/algorithm/algormodel/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/deco-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/deco-user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usercenter-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,43 +70,49 @@
     <session id="2040682181">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
+          <entry key="project.closed" value="62" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.17" value="3" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="5" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="5" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="6" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.20" value="10" />
           <entry key="project.open.time.21" value="4" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.24" value="6" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="activate" value="3" />
+          <entry key="cluster_result" value="1" />
           <entry key="config" value="1" />
           <entry key="cs" value="1" />
           <entry key="css" value="14" />
           <entry key="hosts" value="1" />
-          <entry key="html" value="87" />
-          <entry key="js" value="8" />
+          <entry key="html" value="136" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="9" />
           <entry key="png" value="1" />
-          <entry key="py" value="275" />
-          <entry key="test_cut" value="3" />
+          <entry key="py" value="408" />
+          <entry key="test_cut" value="5" />
           <entry key="train_cut" value="2" />
-          <entry key="train_origin" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="train_origin" value="4" />
+          <entry key="txt" value="6" />
           <entry key="whole_data" value="1" />
           <entry key="其他" value="2" />
           <entry key="学制" value="1" />
@@ -81,11 +122,11 @@
         <counts>
           <entry key="C#" value="1" />
           <entry key="CSS" value="14" />
-          <entry key="HTML" value="87" />
-          <entry key="Image" value="1" />
-          <entry key="JavaScript" value="8" />
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="275" />
+          <entry key="HTML" value="136" />
+          <entry key="Image" value="2" />
+          <entry key="JavaScript" value="9" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Python" value="408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -93,41 +134,77 @@
           <entry key="activate" value="46" />
           <entry key="cs" value="1" />
           <entry key="css" value="141" />
-          <entry key="html" value="1444" />
-          <entry key="py" value="10558" />
+          <entry key="dummy" value="1" />
+          <entry key="html" value="2196" />
+          <entry key="py" value="16255" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="1" />
           <entry key="CSS" value="141" />
-          <entry key="HTML" value="1444" />
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="10558" />
+          <entry key="HTML" value="2196" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Python" value="16253" />
+          <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/algorithm/cluster.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
               <folding>
-                <marker date="1542176673345" expanded="true" signature="982:987" ph="..." />
-                <marker date="1542176673345" expanded="true" signature="982:1122" ph="..." />
+                <element signature="e#20#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../code/step2/autoQA.py">
+        <entry file="file://$PROJECT_DIR$/demo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="665">
+              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/usercenter-message.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/usercenter-base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/usercenter-info.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#20#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,22 +221,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>注册并登录</find>
-      <find>../</find>
-      <find>jsFindPwdForm</find>
-      <find>用户未激活</find>
-      <find>用户</find>
-      <find>jsLogin</find>
-      <find>form-group captcha1 marb38</find>
-      <find>register_form.email.value</find>
-      <find>sou</find>
-      <find>#77c562</find>
-      <find>AppConfig</find>
-      <find>request.user.mobile</find>
-      <find>修改头像</find>
-      <find>image_upload</find>
-      <find>修改密码</find>
-      <find>deco-user</find>
       <find>winReload</find>
       <find>jquery.min.js</find>
       <find>next</find>
@@ -174,6 +235,22 @@
       <find>TemplateResponse</find>
       <find>navbar-collapse collapse</find>
       <find>navbar-brand</find>
+      <find>print</find>
+      <find>classify_SVM</find>
+      <find>vocabfile</find>
+      <find>trainfile</find>
+      <find>load_train_list</find>
+      <find>get_candidate_list</find>
+      <find>ModelAdminView</find>
+      <find>怎么知道导师有多少名额？</find>
+      <find>with</find>
+      <find>urllib2</find>
+      <find>urllib</find>
+      <find>urlparse</find>
+      <find>usercenter-</find>
+      <find>block</find>
+      <find>djang</find>
+      <find>message</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/</replace>
@@ -185,51 +262,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../djangoenv/Scripts/activate" />
-        <option value="$PROJECT_DIR$/apps/operation/algorithm/similarity.py" />
-        <option value="$PROJECT_DIR$/templates/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/templates/css/mystyle.css" />
-        <option value="$PROJECT_DIR$/templates/css/auth.cs" />
-        <option value="$PROJECT_DIR$/templates/css/auth.css" />
-        <option value="$PROJECT_DIR$/templates/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/templates/js/jquery-validation/jquery.validate.js" />
-        <option value="$PROJECT_DIR$/templates/js/jquery-validation/messages_cn.js" />
-        <option value="$PROJECT_DIR$/templates/users/active_fail.html" />
-        <option value="$PROJECT_DIR$/templates/users/send_success.html" />
-        <option value="$PROJECT_DIR$/../newdemo/MxOnline/MxOnline/settings.py" />
-        <option value="$PROJECT_DIR$/templates/users/register.html" />
-        <option value="$PROJECT_DIR$/templates/users/forgetpwd.html" />
-        <option value="$PROJECT_DIR$/templates/users/password_reset.html" />
-        <option value="$PROJECT_DIR$/templates/users/login.html" />
         <option value="$PROJECT_DIR$/static/css/login.css" />
         <option value="$PROJECT_DIR$/apps/crawler/views.py" />
-        <option value="$PROJECT_DIR$/apps/crawler/crawler.py" />
-        <option value="$PROJECT_DIR$/apps/operation/views.py" />
-        <option value="$PROJECT_DIR$/templates/search_form.html" />
-        <option value="$PROJECT_DIR$/templates/result.html" />
         <option value="$PROJECT_DIR$/templates/usercenter-info.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/apps/users/forms.py" />
-        <option value="$PROJECT_DIR$/demo/urls.py" />
-        <option value="$PROJECT_DIR$/templates/usercenter-base.html" />
-        <option value="$PROJECT_DIR$/apps/users/urls.py" />
         <option value="$PROJECT_DIR$/apps/utils/email_send.py" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
         <option value="$PROJECT_DIR$/apps/users/adminx.py" />
-        <option value="$PROJECT_DIR$/apps/crawler/models.py" />
-        <option value="$PROJECT_DIR$/demo/settings.py" />
-        <option value="$PROJECT_DIR$/apps/crawler/adminx.py" />
         <option value="$PROJECT_DIR$/apps/crawler/apps.py" />
         <option value="$PROJECT_DIR$/apps/crawler/__init__.py" />
         <option value="$PROJECT_DIR$/apps/algorithm/__init__.py" />
         <option value="$PROJECT_DIR$/apps/algorithm/apps.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/auth.py" />
         <option value="$PROJECT_DIR$/templates/update.html" />
-        <option value="$PROJECT_DIR$/apps/algorithm/adminx.py" />
-        <option value="$PROJECT_DIR$/apps/algorithm/models.py" />
-        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/update.html" />
         <option value="$PROJECT_DIR$/apps/algorithm/cluster.py" />
+        <option value="$PROJECT_DIR$/apps/operation/algorithm/similarity.py" />
+        <option value="$PROJECT_DIR$/apps/operation/views.py" />
+        <option value="$PROJECT_DIR$/../code/step2/autoQA.py" />
+        <option value="$PROJECT_DIR$/apps/algorithm/algormodel/cluster.py" />
+        <option value="$PROJECT_DIR$/apps/algorithm/algormodel/classify.py" />
+        <option value="$PROJECT_DIR$/apps/algorithm/algormodel/test_code.py" />
+        <option value="$PROJECT_DIR$/apps/algorithm/algormodel/zhaosheng-output.py" />
+        <option value="$PROJECT_DIR$/apps/algorithm/algormodel/zhaosheng_output.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/update.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/plugins/model_list.top_toolbar.format.html" />
+        <option value="$PROJECT_DIR$/apps/algorithm/models.py" />
+        <option value="$PROJECT_DIR$/apps/algorithm/plugins.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/apps/algorithm/adminx.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/updatecluster.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/update.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/views/base.py" />
+        <option value="$PROJECT_DIR$/demo/settings.py" />
+        <option value="$PROJECT_DIR$/templates/result.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/apps/crawler/crawler.py" />
+        <option value="$PROJECT_DIR$/../code/crawler.py" />
+        <option value="$PROJECT_DIR$/apps/crawler/models.py" />
+        <option value="$PROJECT_DIR$/apps/crawler/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/algorithm/algormodel/algorithm/similarity.py" />
+        <option value="$PROJECT_DIR$/templates/resultnotopic.html" />
+        <option value="$PROJECT_DIR$/templates/finish_feedback.html" />
+        <option value="$PROJECT_DIR$/templates/feedback.html" />
+        <option value="$PROJECT_DIR$/demo/urls.py" />
+        <option value="$PROJECT_DIR$/apps/algorithm/views.py" />
+        <option value="$PROJECT_DIR$/apps/operation/adminx.py" />
+        <option value="$PROJECT_DIR$/templates/base_origin.html" />
+        <option value="$PROJECT_DIR$/templates/search_form.html" />
+        <option value="$PROJECT_DIR$/apps/users/urls.py" />
+        <option value="$PROJECT_DIR$/apps/operation/models.py" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/templates/usercenter-base.html" />
       </list>
     </option>
   </component>
@@ -240,8 +323,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
+    <option name="x" value="45" />
     <option name="width" value="1890" />
     <option name="height" value="930" />
   </component>
@@ -253,6 +335,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,25 +352,28 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="algormodel" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +386,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\PycharmProjects\qademo\demo\apps\algorithm\algormodel\algorithm" />
+      <recent name="G:\PycharmProjects\qademo\demo\extra_apps\xadmin\templates\xadmin\views" />
+      <recent name="G:\PycharmProjects\qademo\demo\templates" />
       <recent name="G:\PycharmProjects\qademo\demo\apps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\PycharmProjects\qademo\demo\apps\algorithm\algormodel\algorithm\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,9 +447,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27970898" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20210186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -371,12 +462,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.2580071" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4995958" visible="true" weight="0.3683274" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4995958" visible="true" weight="0.35765123" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32983023" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -387,286 +478,296 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
+    <entry file="file://$PROJECT_DIR$/apps/crawler/migrations/0006_statisticsdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/crawler/migrations/0002_urldisplay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="19" column="87" lean-forward="true" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/crawler/apps.py">
+    <entry file="file://$PROJECT_DIR$/apps/crawler/migrations/0004_auto_20181104_1715.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
+        <state relative-caret-position="-101" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/crawler/__init__.py">
+    <entry file="file://$PROJECT_DIR$/apps/crawler/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
+        <state relative-caret-position="-265" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/algorithm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/algorithm/admin.py">
+    <entry file="file://$PROJECT_DIR$/apps/crawler/migrations/0003_auto_20181104_1542.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/crawler/adminx.py">
+    <entry file="file://$PROJECT_DIR$/apps/algorithm/algormodel/cluster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/crawler/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/algorithm/classify.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/algorithm/algormodel/train_cut" />
-    <entry file="file://$PROJECT_DIR$/../code/step1/whole_data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="88" column="56" lean-forward="true" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/crawler/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="123" column="71" selection-start-line="123" selection-start-column="71" selection-end-line="123" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templatetags/xadmin_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-766">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/blocks/comm.top.setlang.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/update.html" />
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-757" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/includes/sitemenu_default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/quick_detail.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="561" column="16" selection-start-line="559" selection-start-column="32" selection-end-line="559" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/model_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/model_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="211" column="31" lean-forward="true" selection-start-line="211" selection-start-column="31" selection-end-line="211" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/layout/field_value_td.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/.tx/config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/algorithm/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/import_export/export_action.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/base_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/layout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/update.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="536">
+          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/algorithm/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        <state relative-caret-position="760">
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../code/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/algorithm/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="32">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/layout/field_value.html">
+    <entry file="file://$PROJECT_DIR$/templates/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/algorithm/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/crawler/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/crawler/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/views/updatecluster.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/resultnull.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/resultnotopic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/crawler/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="28" selection-start-line="28" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/algorithm/algormodel/algorithm/similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/crawler/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1121">
+          <caret line="87" column="12" lean-forward="true" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/migrations/0003_auto_20181116_1200.py" />
+    <entry file="file://$PROJECT_DIR$/apps/operation/migrations/0005_auto_20181119_1248.py" />
+    <entry file="file://$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" />
+    <entry file="file://$PROJECT_DIR$/templates/finish_feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/crawler/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/algorithm/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/auth/user/change_password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+        <state relative-caret-position="145">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/auth/user/add_form.html">
+    <entry file="file://$PROJECT_DIR$/../code/step2/recut/train_origin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/user.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1843">
+          <caret line="53" column="69" lean-forward="true" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/deco-user.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/send_success.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newdemo/MxOnline/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2895">
+          <caret line="6" column="6" lean-forward="true" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_origin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newdemo/MxOnline/apps/operation/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newdemo/MxOnline/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="234" column="8" lean-forward="true" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+          <folding>
+            <element signature="e#20#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/usercenter-message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/usercenter-info.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../data/毕设/人工分类后的数据/train_origin">
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2679" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/coattention/train_cut">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15830" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/algorithm/algormodel/test_cut">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1015">
-          <caret line="263" selection-start-line="263" selection-end-line="263" selection-end-column="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../code/step2/autoQA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/algorithm/cluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="494">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <marker date="1542176673345" expanded="true" signature="982:987" ph="..." />
-            <marker date="1542176673345" expanded="true" signature="982:1122" ph="..." />
+            <element signature="e#20#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/usercenter-base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
         </state>
       </provider>
     </entry>
